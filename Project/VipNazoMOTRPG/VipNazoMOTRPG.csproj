@@ -16,6 +16,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.css" />
@@ -32,6 +33,7 @@
     <TypeScriptCompile Include="Field\CellCoordinate.ts" />
     <TypeScriptCompile Include="Field\CellHolder.ts" />
     <TypeScriptCompile Include="Field\ICellRenderer.ts" />
+    <TypeScriptCompile Include="Field\Operat-Fild.ts" />
     <TypeScriptCompile Include="Player\Player.ts" />
     <TypeScriptCompile Include="Player\PlayerHolder.ts" />
     <TypeScriptCompile Include="Player\CanvasPlayerRenderer.ts" />
