@@ -45,6 +45,7 @@ module field {
         kVillage,
         kForest,
         kRiver,
+        KOpertion,
     }
 
 }
