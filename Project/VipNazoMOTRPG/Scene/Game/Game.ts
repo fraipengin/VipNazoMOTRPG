@@ -52,6 +52,7 @@ module scene.game {
             var R = CellType.kRiver;
             var F = CellType.kForest;
             var V = CellType.kVillage;
+            var O = CellType.kOperation;
             // セルの属性を設定
             this.cellHolder_.setupAll([
                 [ R, V, V, V, V ],
