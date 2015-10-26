@@ -33,6 +33,7 @@ module field {
             c[CellType.kForest] = new sys.Color(.0, .5, .0);
             c[CellType.kRiver] = new sys.Color (.0, .0, .5);
             c[CellType.kVillage] = new sys.Color(1.0, .6, .0);
+            c[CellType.kOperation] = new sys.Color(.0, .0, .0);
             return c;
         }
 
