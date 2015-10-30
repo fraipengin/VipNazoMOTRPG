@@ -61,10 +61,6 @@ module scene.game {
                 [ V, F, F, R, F ],
                 [ V, V, V, V, R ]
             ]);
-            this.cellHolder_.setupAll([
-                [O, O, O, O, O],
-                [O, O, O, O, O]
-            ]);
         }
 
         get cellHolder(): CellHolder {
