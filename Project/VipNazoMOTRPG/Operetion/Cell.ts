@@ -42,9 +42,7 @@ module field {
     }
 
     export enum CellType {
-        kVillage,
-        kForest,
-        kRiver,
+        kOperation,
     }
 
 }
