@@ -8,10 +8,15 @@
 /// <reference path="../../Util/Random.ts" />
 /// <reference path="../IScene.ts" />
 module scene.game {
-    import Cell = field.Cell;
-    import CellHolder = field.CellHolder;
-    import CellType = field.CellType;
-    import ICellRenderer = field.ICellRenderer;
+    import FieldCell = field.Cell;
+    import FieldCellHolder = field.CellHolder;
+    import FieldCellType = field.CellType;
+    import FieldICellRenderer = field.ICellRenderer;
+
+    import OperationCell = operation.Cell;
+    import OperationCellHolder = operation.CellHolder;
+    import OperationCellType = operation.CellType;
+    import OperationICellRenderer = operation.ICellRenderer;
 
     import IOnClick = eventhandler.IOnClick;
     import IOnMouseMove = eventhandler.IOnMouseMove;
