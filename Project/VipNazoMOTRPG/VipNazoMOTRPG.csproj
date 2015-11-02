@@ -33,11 +33,11 @@
     <TypeScriptCompile Include="Field\CellCoordinate.ts" />
     <TypeScriptCompile Include="Field\CellHolder.ts" />
     <TypeScriptCompile Include="Field\ICellRenderer.ts" />
-    <TypeScriptCompile Include="Operetion\CanvasCellRenderer.ts" />
-    <TypeScriptCompile Include="Operetion\Cell.ts" />
-    <TypeScriptCompile Include="Operetion\CellCoordinate.ts" />
-    <TypeScriptCompile Include="Operetion\CellHolder.ts" />
-    <TypeScriptCompile Include="Operetion\ICellRenderer.ts" />
+    <TypeScriptCompile Include="Operation\CanvasCellRenderer.ts" />
+    <TypeScriptCompile Include="Operation\Cell.ts" />
+    <TypeScriptCompile Include="Operation\CellCoordinate.ts" />
+    <TypeScriptCompile Include="Operation\CellHolder.ts" />
+    <TypeScriptCompile Include="Operation\ICellRenderer.ts" />
     <TypeScriptCompile Include="Player\Player.ts" />
     <TypeScriptCompile Include="Player\PlayerHolder.ts" />
     <TypeScriptCompile Include="Player\CanvasPlayerRenderer.ts" />
