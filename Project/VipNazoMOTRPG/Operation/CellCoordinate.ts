@@ -1,13 +1,13 @@
 ﻿/// <reference path="../Util/Rect.ts" />
 
-module field {
+module operation {
 
     /** セルのキャンバス上の座標の計算 */
     export class CellCoordinate {
 
         static toRect(x: number, y: number): Rect {
             var kWidth: number = 100;
-            var kHeight: number = 100;
+            var kHeight: number = 600;
             var kMargin: number = 25;
             var kPadding: number = 10;
 
