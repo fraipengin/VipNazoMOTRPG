@@ -39,11 +39,11 @@ module scene.game {
     export class Game
         implements IScene, IOnClick, IOnMouseMove, IOnKeyDown
     {
-        private FieldCellHolder_: FieldCellHolder;
-        private FieldICellRenderer_: FieldICellRenderer;
+        private FieldcellHolder_: FieldCellHolder;
+        private FieldIcellRenderer_: FieldICellRenderer;
 
         private OperationCellHolder_: OperationCellHolder;
-        private OperationICellRenderer_: OperationICellRenderer;
+        private OperationIcellRenderer_: OperationICellRenderer;
 
         private players_: PlayerHolder;
 
@@ -53,8 +53,8 @@ module scene.game {
         }
 
         initialize(): void {
-            this.FieldCellHolder_ = new FieldCellHolder(5, 5);
-            this.OperationCellHolder_ = new OperationCellHolder(5, 2);
+            this.FieldcellHolder_ = new FieldcellHolder(5, 5);
+            this.OperationcellHolder_ = new OperationcellHolder(5, 2);
             this.cursor_ = new SelectCursor();
             this.players_ = new PlayerHolder();
 
@@ -66,7 +66,7 @@ module scene.game {
             var F = FieldCellType.kForest;
             var V = FieldCellType.kVillage;
             // セルの属性を設定
-            this.FieldCellHolder_.setupAll([
+            this.FieldcellHolder_.setupAll([
                 [ R, V, V, V, V ],
                 [ F, R, F, F, V ],
                 [ F, F, R, F, F ],
@@ -92,10 +92,10 @@ module scene.game {
         }
 
         get FieldcellHolder(): FieldCellHolder {
-            return this.FieldCellHolder_;
+            return this.FieldcellHolder_;
         }
         get OprerationcellHolder(): OperationCellHolder {
-            return this.OperationCellHolder_;
+            return this.OperationcellHolder_;
         }
 
         get cursor(): SelectCursor {
@@ -110,11 +110,12 @@ module scene.game {
             return null;
         }
 
-        FieldcreateSceneRenderer(canvas: sys.IGraphics): ISceneRenderer {
-            return this.FieldICellRenderer_ || (this.FieldICellRenderer_ = new SceneRenderer(canvas, this));
+        FcreateSceneRenderer(canvas: sys.IGraphics): ISceneRenderer {
+            return this.FieldcellRenderer_ || (this.FieldcellRenderer_ = new SceneRenderer(canvas, this));
         }
-        OperationcreateSceneRenderer(canvas: sys.IGraphics): ISceneRenderer {
-            return this.OperationICellRenderer_ || (this.OperationICellRenderer_ = new SceneRenderer(canvas, this));
+
+        OcreateSceneRenderer(canvas: sys.IGraphics): ISceneRenderer {
+            return this.OperationIcellRenderer_ || (this.OperationIcellRenderer_ = new SceneRenderer(canvas, this));
         }
 
         onClick(event: MouseEvent) {
