@@ -1,7 +1,7 @@
 ﻿/// <reference path="../Util/Rect.ts" />
 import Rect = util.Rect;
 
-module field {
+module operation {
 
     /** マス */
     export class Cell {
@@ -42,7 +42,17 @@ module field {
     }
 
     export enum CellType {
-        kOperation,
+        kOperation01,
+        kOperation02,
+        kOperation03,
+        kOperation04,
+        kOperation05,
+        kOperation06,
+        kOperation07,
+        kOperation08,
+        kOperation09,
+        kOperation10,
+
     }
 
 }

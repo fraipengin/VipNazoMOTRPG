@@ -1,4 +1,4 @@
-﻿module field {
+﻿module operation {
     /** セルの集中管理用 */
     export class CellHolder {
         private cells_: Array<Array<Cell>>;

@@ -1,4 +1,4 @@
-﻿module field {
+﻿module operation {
     export interface ICellRenderer {
         draw(): void;
     }

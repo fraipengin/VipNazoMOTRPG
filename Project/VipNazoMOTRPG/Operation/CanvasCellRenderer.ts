@@ -1,5 +1,5 @@
 ﻿/// <reference path="../Sys/IGraphics.ts" />
-module field {
+module operation {
 
     /** セルの描画 */
     export class CanvasCellRenderer implements ICellRenderer {
